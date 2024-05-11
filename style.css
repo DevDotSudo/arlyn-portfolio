@@ -344,7 +344,7 @@ button[type="submit"]:hover {
         padding: 10px 0px;
     }
 
-    .list-menu li{
+    .list-menu li {
         font-size: 10px;
     }
 
@@ -401,11 +401,14 @@ button[type="submit"]:hover {
     .project-name {
         font-size: 20px;
     }
-
 }
 
 @media screen and (max-width: 480px) {
     .contact-section {
         padding: 20px;
+    }
+
+    .contact-container {
+        max-width: 90%;
     }
 }
